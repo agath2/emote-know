@@ -35,7 +35,7 @@
     "region": "nose"
   },
   "10": {
-    "fac_name": "Upper Lid Raiser",
+    "fac_name": "Upper Lip Raiser",
     "muscular_basis": ["Levator Labii Superioris", "Caput Infraorbitalis"],
     "region": "upper_lip"
   },
