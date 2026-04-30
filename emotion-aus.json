@@ -1,0 +1,38 @@
+{
+  "joy": {
+    "label": "Joy",
+    "aus": [6, 12],
+    "description": "Good, unexpected fortune that occurs in safe and familiar environments. Motivates one to savour the joyful event and seek similar events in the future",
+    "appraisal": "a little expectedness, pleasantness, goal conduciveness, external causation, moral, and an increase self-esteem"
+  },
+  "sadness": {
+    "label": "Sadness",
+    "aus": [1, 4, 15],
+    "description": "sadness is a cognitive and emotional response to an irrevocable loss or failure",
+    "appraisal": "high unpleasantness, goal obstruction, and an external, impersonal cause, accompanied by a low sense of coping ability"
+  },   
+  "fear": {
+    "label": "Fear",
+    "aus": [1, 2, 4, 5, 7, 20, 26],
+    "description": "Widely agreed to be an emotion, fear occurs post-stimulus, when we experience a threat to our physical safety",
+    "appraisal": "unexpected, unpleasant, slight unfairness, external causation, inability to cope, morality"
+  },   
+  "anger": {
+    "label": "Anger",
+    "aus": [4, 5, 7, 23],
+    "description": "Anger arises when we are blocked from pursuing a goal and/or treated unfairly; causes approach behavior ",
+    "appraisal": "unexpected, unpleasant, goal obstruction, perceived unfairness, external causation, slightly immoral"
+  },
+  "disgust": {
+    "label": "Disgust",
+    "aus": [9, 15, 16],
+    "description": "Disgust means “bad taste”(dis = opposite of; gusto = taste/pleasure). The cause of disgust can go beyond the mouth, to waste and moral violations.",
+    "appraisal": "unexpected, unpleasant, goal obstruction, perceived unfairness, external causation, slightly immoral"
+  },
+  "surprise": {
+    "label": "Surprise",
+    "aus": [1, 2, 5, 26, 27],
+    "description": "Surprise is a brief, neutral emotion triggered by an unexpected event. Unlike fear, it is not inherently negative; the valence of surprise depends entirely on what follows it. It quickly gives way to whatever emotion is appropriate to the surprising event.",
+    "appraisal": "High unexpectedness, neutral pleasantness, uncertain goal relevance, external causation, low coping certainty"
+  }
+}

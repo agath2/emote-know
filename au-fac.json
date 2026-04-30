@@ -1,0 +1,122 @@
+{
+  "1": {
+    "fac_name": "Inner Brow Raiser",
+    "muscular_basis": ["Frontalis", "Pars Medialis"],
+    "region": "brow_inner"
+  },
+  "2": {
+    "fac_name": "Outer Brow Raiser",
+    "muscular_basis": ["Frontalis", "Pars Lateralis"],
+    "region": "brow_outer"
+  },
+  "4": {
+    "fac_name": "Brow Lowerer",
+    "muscular_basis": ["Depressor Glabellae", "Depressor Supercilli", "Corrugator"],
+    "region": "brow_inner"
+  },
+  "5": {
+    "fac_name": "Upper Lid Raiser",
+    "muscular_basis": ["Levator Palpebrae Superioris"],
+    "region": "upper_lid"
+  },
+  "6": {
+    "fac_name": "Cheek Raiser",
+    "muscular_basis": ["Orbicularis Oculi", "Pars Orbitalis"],
+    "region": "cheek"
+  },
+  "7": {
+    "fac_name": "Lid Tightener",
+    "muscular_basis": ["Orbicularis Oculi", "Pars Palebralis"],
+    "region": "upper_lid"
+  },
+  "9": {
+    "fac_name": "Nose Wrinkler",
+    "muscular_basis": ["Levator Labii Superioris", "Alaeque Nasi"],
+    "region": "nose"
+  },
+  "10": {
+    "fac_name": "Upper Lid Raiser",
+    "muscular_basis": ["Levator Labii Superioris", "Caput Infraorbitalis"],
+    "region": "upper_lip"
+  },
+  "11": {
+    "fac_name": "Nasolabial Fold Deepener",
+    "muscular_basis": ["Zygomatic Minor"],
+    "region": "cheek"
+  },
+  "12": {
+    "fac_name": "Lip Corner Puller",
+    "muscular_basis": ["Zygomatic Major"],
+    "region": "lip_corner"
+  },
+  "13": {
+    "fac_name": "Cheek Puffer",
+    "muscular_basis": ["Caninus"],
+    "region": "cheek"
+  },
+  "14": {
+    "fac_name": "Dimpler",
+    "muscular_basis": ["Buccinnator"],
+    "region": "lip_corner"
+  },
+  "15": {
+    "fac_name": "Lip Corner Depressor",
+    "muscular_basis": ["Triangularis"],
+    "region": "lip_corner"
+  },
+  "16": {
+    "fac_name": "Lower Lip Depressor",
+    "muscular_basis": ["Depressor Labii"],
+    "region": "lower_lip"
+  },
+  "17": {
+    "fac_name": "Chin Raiser",
+    "muscular_basis": ["Mentalis"],
+    "region": "jaw"
+  },
+  "18": {
+    "fac_name": "Lip Puckerer",
+    "muscular_basis": ["Incisivii Labii Superioris", "Incisive Labii Inferioris"],
+    "region": "upper_lip"
+  },
+  "20": {
+    "fac_name": "Lip Stretcher",
+    "muscular_basis": ["Risorius"],
+    "region": "lip_corner"
+  },
+  "22": {
+    "fac_name": "Lip Funneler",
+    "muscular_basis": ["Orbicularis Oris"],
+    "region": "upper_lip"
+  },
+  "23": {
+    "fac_name": "Lip Tightner",
+    "muscular_basis": ["Orbicularis Oris"],
+    "region": "upper_lip"
+  },
+  "24": {
+    "fac_name": "Lip Pressor",
+    "muscular_basis": ["Orbicularis Oris"],
+    "region": "upper_lip"
+  },
+  "25": {
+    "fac_name": "Lips Part",
+    "muscular_basis": ["Depressor Labii", "Mentalis", "Orbicularis Oris"],
+    "region": "lower_lip"
+  },
+  "26": {
+    "fac_name": "Jaw Drop",
+    "muscular_basis": ["Masetter", "Temporal and Internal Pterygoid Relaxed"],
+    "region": "jaw"
+  },
+  "27": {
+    "fac_name": "Mouth Stretch",
+    "muscular_basis": ["Pterygoids", "Digastric"],
+    "region": "jaw"
+  },
+  "28": {
+    "fac_name": "Lip Suck",
+    "muscular_basis": ["Orbicularis Oris"],
+    "region": "upper_lip"
+  }
+}
