@@ -1,27 +1,27 @@
 import { SVGOverlay } from './SVGOverlay';
-import type { Region } from '../types/index';
-
-// TODO: replace with your actual cropped face image import
-// import faceImage from '../assets/face.png';
+import type { Region, EmotionKey } from '../types/index';
 
 interface FaceViewerProps {
+  selectedEmotion: EmotionKey | null;
   activeRegions: Region[];
   focusedRegion: Region | null;
   onRegionClick: (region: Region) => void;
 }
 
-export function FaceViewer({ activeRegions, focusedRegion, onRegionClick }: FaceViewerProps) {
+export function FaceViewer({ selectedEmotion, activeRegions, focusedRegion, onRegionClick }: FaceViewerProps) {
+  const imageSrc = selectedEmotion
+    ? `/faces/${selectedEmotion}.jpg`
+    : `/faces/joy.jpg`; // fallback before any emotion is selected
+
   return (
     <div className="relative w-[300px] h-[350px] mx-auto select-none">
-      {/* Face image — swap src when you have the asset */}
       <img
-        src="/face.png"
-        alt="Facial expression reference"
+        key={imageSrc} // forces re-render on emotion change
+        src={imageSrc}
+        alt={selectedEmotion ?? 'neutral face'}
         className="absolute inset-0 w-full h-full object-cover rounded-lg"
         draggable={false}
       />
-
-      {/* SVG hotspot overlay */}
       <SVGOverlay
         activeRegions={activeRegions}
         focusedRegion={focusedRegion}
