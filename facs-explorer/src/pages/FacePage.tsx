@@ -77,8 +77,8 @@ export function FacePage() {
         </div>
       )}
       {!selectedEmotion && (
-        <p className="text-center text-stone-400 text-sm">
-          Select an emotion above to explore its action units.
+        <p className="text-center text-stone-400 text-md">
+          Hi there! Select an emotion above to explore its action units.
         </p>
       )}
     </main>

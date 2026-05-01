@@ -2,6 +2,7 @@ import { Routes, Route, NavLink } from 'react-router-dom';
 import { FacePage } from './pages/FacePage';
 import { FACSPage } from './pages/FACSPage';
 import { CPMPage } from './pages/CPMPage';
+import { CitationsPage } from './pages/CitationsPage';
 
 export default function App() {
   return (
@@ -37,6 +38,14 @@ export default function App() {
           >
             CPM
           </NavLink>
+          <NavLink
+            to="/citations"
+            className={({ isActive }) =>
+              `text-sm font-medium transition-colors ${isActive ? 'text-stone-900 underline underline-offset-4' : 'text-stone-500 hover:text-stone-800'}`
+            }
+          >
+            References
+          </NavLink>
         </nav>
       </header>
 
@@ -44,6 +53,7 @@ export default function App() {
         <Route path="/" element={<FacePage />} />
         <Route path="/facs" element={<FACSPage />} />
         <Route path="/cpm" element={<CPMPage />} />
+        <Route path="/citations" element={<CitationsPage />} />
       </Routes>
 
       <footer className="text-center text-xs text-stone-400 py-6 border-t border-stone-100">
