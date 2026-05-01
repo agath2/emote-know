@@ -57,7 +57,7 @@ export default function App() {
       </Routes>
 
       <footer className="text-center text-xs text-stone-400 py-6 border-t border-stone-100">
-        Face image: Ekman & Friesen (2003). <em>Unmasking the Face.</em> Malor Books.
+        Agatha Yang Spring 2026 PSY22 EDLP submission
       </footer>
 
     </div>
