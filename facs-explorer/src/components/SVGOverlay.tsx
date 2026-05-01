@@ -24,7 +24,7 @@ const REGION_SHAPES: RegionShape[] = [
     id: 'brow_inner',
     shape: 'polygon',
     props: {
-      points: `${904 + 742 / 2},${824} ${904},${824 + 420} ${904 + 742},${824 + 420}`,
+      points: `${904},${824} ${904 + 742},${824} ${904 + 742 / 2},${824 + 420}`,
     },
     label: 'Brow Lowerer',
   },

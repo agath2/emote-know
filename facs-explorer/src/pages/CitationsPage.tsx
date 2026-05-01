@@ -15,13 +15,13 @@ export function CitationsPage() {
 
       <h3 className="text-l font-bold mt-6 mb-2">Additional Sources:</h3>
       <p className="text-stone-600 text-sm leading-relaxed">
-        Ekman, P., & Friesen, W. V. (2003). Unmasking the face: A guide to recognizing emotions from facial clues. Malor Books.
-      </p>
-      <p className="mt-5 text-stone-600 text-sm leading-relaxed">
         Farnsworth, B. (2023, January). Facial action coding system (FACS): A visual guidebook. iMotions. https://imotions.com/blog/learning/research-fundamentals/facial-action-coding-system/#emotions-and-action-units
       </p>
       <p className="mt-5 text-stone-600 text-sm leading-relaxed">
         Guthrie Yarwood, M. (2022). Psychology of human emotion: An open access textbook. Pressbooks. https://psu.pb.unizin.org/psych425/
+      </p>
+      <p className="mt-5 text-stone-600 text-sm leading-relaxed">
+        McCloud, S. (2006). Making comics: Storytelling secrets of comics, manga and graphic novels. HarperCollins.
       </p>
     </main>
   );
