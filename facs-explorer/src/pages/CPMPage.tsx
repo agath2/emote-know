@@ -47,6 +47,19 @@ export function CPMPage() {
         The result is a model in which emotions are adaptive, synchronized responses 
         to meaning.
       </p>
+
+      <p className="mt-5 text-stone-600 text-sm leading-relaxed">
+        Tong (2015) provides empirical support for the CPM's claim that different 
+        emotions correspond to different appraisal profiles — but also reveals its limits. 
+        Across 13 positive emotions, appraisals correctly classified emotions at 
+        rates well above chance. However, joy and contentment produced nearly 
+        identical appraisal profiles: both high on pleasantness, goal attainment, 
+        personal control, and relevance, and both low on problems and effort. 
+        Appraisals alone could not reliably separate them. This is significant: 
+        if two emotions share an appraisal structure, it may be the motor 
+        expression component (the face) that carries the differentiating information. 
+        FACS and the CPM are not merely related; they come together to paint a fuller picture.
+      </p>
     </main>
   );
 }
